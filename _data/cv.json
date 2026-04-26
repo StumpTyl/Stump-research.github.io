@@ -1,152 +1,178 @@
+
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Tyler James Stump",
+    "email": "stump.211@buckeyemail.osu.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://Stump-research.github.io",
+    "summary": "PhD Candidate in Engineering Education at The Ohio State University specializing in quantitative research methods. Research focuses on inclusive curriculum and assessment design, psychometric validation, Bayesian item response theory, and computing and entrepreneurial-minded learning in engineering education.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Columbus",
       "countryCode": "US",
-      "region": ""
+      "region": "Ohio"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0000-0002-1264-858X",
+        "url": "https://orcid.org/0000-0002-1264-858X"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "YOURUSERNAME",
+        "url": "https://github.com/YOURUSERNAME"
       }
     ]
   },
-  "work": [],
+
+  "work": [
+    {
+      "position": "Graduate Research Assistant",
+      "institution": "The Ohio State University",
+      "department": "Engineering Education",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Research on psychometric validation, entrepreneurial-minded learning assessment, and Bayesian quantitative methods in engineering education."
+    },
+    {
+      "position": "Graduate Teaching Associate",
+      "institution": "The Ohio State University",
+      "department": "Engineering Education",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "Instructional support and curriculum development for the Multidisciplinary Engineering Capstone Design sequence."
+    }
+  ],
+
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "The Ohio State University",
+      "area": "Engineering Education",
+      "studyType": "Ph.D.",
+      "startDate": "2023",
+      "endDate": "2027",
       "gpa": null,
-      "courses": []
+      "courses": [],
+      "thesis": "“Informing Our Prior Beliefs”: Actualizing Bayesian Item Response Theory as a Critical Quantitative Methodology of Validation for the MATLAB Concept Inventory (MCS1)"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Michigan State University",
+      "area": "Biosystems & Agricultural Engineering",
+      "studyType": "M.S.",
+      "startDate": "2021",
+      "endDate": "2023",
       "gpa": null,
-      "courses": []
+      "courses": [],
+      "thesis": "Understanding the Limit: A Reverse Quantitative Microbial Risk Assessment to Investigate Low-Level Concentrations of Listeria Monocytogenes in Apple Packinghouses"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Michigan State University",
+      "area": "Biosystems & Agricultural Engineering",
+      "studyType": "B.S.",
+      "startDate": "2018",
+      "endDate": "2022",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+
+  "skills": [
+    {
+      "name": "Quantitative Methods",
+      "keywords": [
+        "Bayesian Item Response Theory",
+        "Structural Equation Modeling",
+        "Confirmatory Factor Analysis",
+        "Multilevel Modeling",
+        "Psychometric Validation",
+        "Quantitative Microbial Risk Assessment"
+      ]
+    },
+    {
+      "name": "Qualitative Methods",
+      "keywords": [
+        "Thematic Analysis",
+        "Grounded Theory",
+        "Collaborative Autoethnography",
+        "A priori and Axial Coding"
+      ]
+    },
+    {
+      "name": "Programming & Software",
+      "keywords": [
+        "R",
+        "MATLAB",
+        "SPSS",
+        "Mplus"
+      ]
+    }
+  ],
+
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Development of dose-response models for the ingestion route of exposure to Listeria monocytogenes for pregnant people",
+      "publisher": "Risk Analysis",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Development of probabilistic dose-response models supporting microbial risk assessment for vulnerable populations."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Produce Safety Behaviors, Motivators, Barriers, and Beliefs in Pediatric Cancer Patient Caretakers",
+      "publisher": "Journal of Food Protection",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": "Mixed-methods analysis of food safety behaviors and beliefs among caretakers of pediatric cancer patients."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Infusing an Entrepreneurial Mindset into Multidisciplinary Capstone Curriculum",
+      "publisher": "International Journal for Engineering Education",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": "Alignment of entrepreneurial-minded learning objectives with ABET outcomes in multidisciplinary capstone design."
     }
   ],
+
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "Supporting Student Transitions through Pedagogical Innovation in Engineering Education",
+      "event": "Virginia Tech Invited Speaker Seminar Series",
+      "date": "2024-03-15",
+      "location": "Blacksburg, VA, USA",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "The development of dose-response models for oral ingestion of L. monocytogenes for pregnant people",
+      "event": "Society for Risk Analysis Annual Meeting",
+      "date": "2024-12-11",
+      "location": "Washington, DC, USA",
       "description": ""
     }
   ],
+
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Multidisciplinary Engineering Capstone Design I & II",
+      "institution": "The Ohio State University, Engineering Education",
+      "date": "2024-01-01",
+      "role": "Graduate Teaching Associate",
+      "description": "Instructional support, assessment design, and mentoring for multidisciplinary student teams."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+
+  "interests": [
+    "Inclusive Assessment Design",
+    "Engineering Education Research",
+    "Psychometrics",
+    "Computing Education",
+    "Entrepreneurial Minded Learning"
+  ],
+
+  "references": []
 }
