@@ -3,8 +3,6 @@ layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 ## Education
@@ -103,5 +101,5 @@ Thesis: *Understanding the Limit: A Reverse Quantitative Microbial Risk Assessme
 
 ## Honors & Awards
 
-- Engineering Education Graduate Research Associate Leadership Award, Ohio State University — 2025  
+- Engineering Education Graduate Research Associate Leadership Award, The Ohio State University — 2025  
 - Society for Risk Analysis Student Research Merit Award — 2024  
