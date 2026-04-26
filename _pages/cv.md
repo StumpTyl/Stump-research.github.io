@@ -1,64 +1,107 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Ph.D. in Engineering Education**  
+*The Ohio State University*  
+Specialization: Quantitative Research Methods  
+Dissertation: *“Informing Our Prior Beliefs”: Actualizing Bayesian Item Response Theory as a Critical Quantitative Methodology of Validation for the MATLAB Concept Inventory (MCS1)*  
+Expected: 2027  
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**M.S. in Biosystems & Agricultural Engineering**  
+*Michigan State University* — 2023  
+Thesis: *Understanding the Limit: A Reverse Quantitative Microbial Risk Assessment to Investigate Low‑Level Concentrations of Listeria monocytogenes in Apple Packinghouses*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**B.S. in Biosystems & Agricultural Engineering**  
+*Michigan State University* — 2022  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+---
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Academic Appointments
+
+**Graduate Research Assistant**  
+*Department of Engineering Education, The Ohio State University*  
+2023 – Present  
+
+**Graduate Teaching Associate**  
+*Multidisciplinary Engineering Capstone Design Sequence, The Ohio State University*  
+2024 – Present  
+
+**Graduate Research Assistant**  
+*Department of Biosystems & Agricultural Engineering, Michigan State University*  
+2021 – 2023  
+
+**Research Assistant & Curriculum Assistant**  
+*Physics Education Research Laboratory, Michigan State University*  
+2020 – 2023  
+
+---
+
+## Research Interests
+
+- Engineering and computing education research  
+- Inclusive curriculum and assessment design  
+- Psychometric validation and measurement  
+- Bayesian item response theory  
+- Assessment in entrepreneurial‑minded learning  
+
+---
+
+## Methodological Expertise
+
+**Quantitative**
+- Bayesian and classical item response theory  
+- Structural equation modeling and confirmatory factor analysis  
+- Multilevel (hierarchical) linear modeling  
+- Affective and conceptual instrument development and validation  
+- Quantitative microbial risk assessment  
+
+**Qualitative**
+- Thematic analysis  
+- A priori, axial, and narrative coding  
+- Pragmatic grounded theory  
+- Collaborative autoethnography  
+
+---
+
+## Publications
+
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+---
+
+## Talks & Presentations
+
+<ul>
+{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}
+</ul>
+
+---
+
+## Teaching Experience
+
+<ul>
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
+---
+
+## Honors & Awards
+
+- Engineering Education Graduate Research Associate Leadership Award, Ohio State University — 2025  
+- Society for Risk Analysis Student Research Merit Award — 2024  
