@@ -1,50 +1,151 @@
+################################################################################
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Tyler James Stump"
-title_separator          : "-"
-name                     : &name "Tyler James Stump"
-description              : &description "Academic website of Tyler James Stump, PhD Candidate in Engineering Education at The Ohio State University"
+################################################################################
 
-# ✅ CRITICAL: These must match your repo EXACTLY
+locale: "en-US"
+site_theme: "default"
+
+title: "Tyler James Stump"
+title_separator: "-"
+name: &name "Tyler James Stump"
+description: &description "Academic website of Tyler James Stump, PhD Candidate in Engineering Education at The Ohio State University"
+
+################################################################################
+# Site URL settings (PROJECT SITE — MUST MATCH REPO)
+################################################################################
+
 url: "https://stumptyl.github.io"
-baseurl: "/Stump-research"
-repository: "StumpTyl/Stump-research"
+baseurl: "/Stump-research.github.io"
+repository: "StumpTyl/Stump-research.github.io"
 
-# Site Author (Sidebar)
+################################################################################
+# Author Profile (Sidebar)
+################################################################################
+
 author:
-  avatar           : "profile.png"
-  name             : "Tyler James Stump"
-  pronouns         :
-  bio              : "PhD Candidate in Engineering Education at The Ohio State University specializing in quantitative research methods, psychometric validation, Bayesian item response theory, and inclusive assessment design."
-  location         : "Columbus, Ohio, USA"
-  employer         : "The Ohio State University"
-  uri              :
-  email            : "stump.211@buckeyemail.osu.edu"
+  avatar: "profile.png"
+  name: "Tyler James Stump"
+  pronouns:
+  bio: "PhD Candidate in Engineering Education at The Ohio State University specializing in quantitative research methods, psychometric validation, Bayesian item response theory, and inclusive assessment design."
+  location: "Columbus, Ohio, USA"
+  employer: "The Ohio State University"
+  uri:
+  email: "stump.211@buckeyemail.osu.edu"
 
-  # Academic websites
-  academia         :
-  arxiv            :
-  googlescholar    : "https://scholar.google.com"
-  inspire-hep      :
-  impactstory      :
-  orcid            : "https://orcid.org/0000-0002-1264-858X"
-  semantic         :
-  ssrn             :
-  pubmed           :
-  researchgate     :
-  scopus           :
-  zotero           :
+  # Academic profiles
+  googlescholar: "https://scholar.google.com"
+  orcid: "https://orcid.org/0000-0002-1264-858X"
 
-  # Code & software
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           : "stump-research"
-  kaggle           :
-  stackoverflow    :
+  # Code & development
+  github: "StumpTyl"
 
-  # Social (leave blank unless you want them shown)
-  bluesky          :
-  linkedin         :
-  twitter          :
+################################################################################
+# Collections (CRITICAL FOR ACADEMIC PAGES)
+################################################################################
+# Without the pages collection, /cv/, /research/, etc. WILL NOT BUILD
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+
+################################################################################
+# Reading Files
+################################################################################
+
+include:
+  - .htaccess
+  - _pages
+  - files
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-cache
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - Dockerfile
+
+################################################################################
+# Defaults (Layout Behavior)
+################################################################################
+
+defaults:
+  # Pages in _pages/
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  # Publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+
+  # Teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+
+  # Talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+
+################################################################################
+# Markdown & Formatting
+################################################################################
+
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+################################################################################
+# Output & Permalinks
+################################################################################
+
+permalink: /:categories/:title/
+timezone: Etc/UTC
+
+################################################################################
+# Plugins (GitHub Pages Safe)
+################################################################################
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
