@@ -7,9 +7,9 @@ name                     : &name "Tyler James Stump"
 description              : &description "Academic website of Tyler James Stump, PhD Candidate in Engineering Education at The Ohio State University"
 
 # ✅ CRITICAL: These must match your repo EXACTLY
-url                      : "https://stump-research.github.io"
-baseurl                  : ""
-repository               : "stump-research/stump-research.github.io"
+url: "https://stumptyl.github.io"
+baseurl: "/Stump-research"
+repository: "StumpTyl/Stump-research"
 
 # Site Author (Sidebar)
 author:
