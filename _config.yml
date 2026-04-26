@@ -3,39 +3,32 @@
 ################################################################################
 
 locale: "en-US"
-site_theme: "default"
-
 title: "Tyler James Stump"
-title_separator: "-"
-name: "Tyler James Stump"
 description: "Academic website of Tyler James Stump, PhD Candidate in Engineering Education at The Ohio State University"
 
 ################################################################################
-# Site URL settings (USER SITE — CRITICAL)
+# USER SITE SETTINGS (CRITICAL)
 ################################################################################
 
 url: "https://stumptyl.github.io"
-baseurl: ""                      # ✅ MUST be empty for USERNAME.github.io sites
+baseurl: ""                   # MUST be empty for *.github.io repos
 repository: "StumpTyl/Stump-research.github.io"
 
 ################################################################################
-# Author Profile (Sidebar)
+# Author Profile
 ################################################################################
 
 author:
-  avatar: "profile.png"
   name: "Tyler James Stump"
   bio: "PhD Candidate in Engineering Education at The Ohio State University specializing in quantitative research methods, psychometric validation, Bayesian item response theory, and inclusive assessment design."
   location: "Columbus, Ohio, USA"
   employer: "The Ohio State University"
   email: "stump.211@buckeyemail.osu.edu"
-
-  googlescholar: "https://scholar.google.com"
-  orcid: "https://orcid.org/0000-0002-1264-858X"
   github: "StumpTyl"
+  orcid: "0000-0002-1264-858X"
 
 ################################################################################
-# Collections (REQUIRED)
+# Collections
 ################################################################################
 
 collections:
@@ -44,31 +37,17 @@ collections:
     permalink: /:path/
   publications:
     output: true
-    permalink: /publications/:path/
   talks:
     output: true
-    permalink: /talks/:path/
   teaching:
     output: true
-    permalink: /teaching/:path/
 
 ################################################################################
-# Reading Files
+# Includes
 ################################################################################
 
 include:
   - _pages
-  - files
-
-exclude:
-  - .github
-  - .bundle
-  - vendor
-  - node_modules
-  - Dockerfile
-  - Gemfile
-  - Gemfile.lock
-  - README.md
 
 ################################################################################
 # Defaults
@@ -82,41 +61,12 @@ defaults:
       layout: single
       author_profile: true
 
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-
-################################################################################
-# Markdown
-################################################################################
-
-markdown: kramdown
-highlighter: rouge
-excerpt_separator: "\n\n"
-
 ################################################################################
 # Plugins
 ################################################################################
 
 plugins:
   - jekyll-feed
-  - jekyll-gist
   - jekyll-sitemap
   - jemoji
+``
